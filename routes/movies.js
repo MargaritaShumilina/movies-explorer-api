@@ -19,7 +19,6 @@ movieRouter.post(
       image: Joi.string().regex(regularExp).required(),
       trailerLink: Joi.string().regex(regularExp).required(),
       thumbnail: Joi.string().regex(regularExp).required(),
-      owner: Joi.string().required(),
       movieId: Joi.number().required(),
       nameRU: Joi.string().required(),
       nameEN: Joi.string().required(),
